@@ -3,33 +3,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>초대장</title>
+  <title>가족모임 초대장</title>
+
+  <!-- ✅ 카카오톡 링크 공유 시 썸네일/미리보기 설정 -->
+  <meta property="og:title" content="가족모임에 초대합니다 🎉" />
+  <meta property="og:description" content="따뜻한 시간 함께해요" />
+  <meta property="og:image" content="https://dlwlgus2011.github.io/invitation/페이지1.jpg" />
+  <meta property="og:url" content="https://dlwlgus2011.github.io/invitation/" />
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- 풀스크린 메인 이미지 -->
+  <!-- ✅ 대표 이미지 풀스크린 섹션 -->
   <section class="hero">
     <img src="페이지1.jpg" alt="대표 이미지" />
   </section>
 
-  <!-- 중간 이미지 섹션 -->
+  <!-- ✅ 두 번째 이미지 -->
   <section class="middle">
-    <img src="페이지2.jpg" alt="설명 이미지" />
+    <img src="페이지2.jpg" alt="세부 안내 이미지" />
   </section>
 
-  <!-- 카카오맵 직접 삽입 -->
+  <!-- ✅ 지도 미리보기 -->
   <section class="map-section">
-    <h2>📍 오시는 길</h2>
+    <h2> 오시는 길</h2>
     <div class="map-container">
       <iframe 
-        src="https://map.kakao.com/link/map/서초그랑자이 104동,37.48470801491151,127.01816988140785" 
+        src="https://place.map.kakao.com/1429561551"
         width="100%" height="300" style="border:0;" allowfullscreen>
       </iframe>
     </div>
     <p>
       <a class="map-link" href="https://map.kakao.com/link/to/서초그랑자이 104동,37.48470801491151,127.01816988140785" target="_blank">
-        👉 카카오맵에서 열기
+        카카오맵에서 확인하기
       </a>
     </p>
   </section>
