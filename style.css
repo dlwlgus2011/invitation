@@ -7,7 +7,7 @@
 html, body {
   height: 100%;
   scroll-behavior: smooth;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'SUIT', sans-serif;
   background-color: #fff;
   color: #333;
   overflow-y: scroll;
@@ -42,24 +42,30 @@ html, body {
   background-color: #f6f6f6;
   text-align: center;
 }
-
+.map-section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 24px;
+  color: #888; /* 연한 회색 */
+  text-align: center;
+  font-weight: 500;
+}
 .map-thumb {
   width: 90%;
   max-width: 600px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  margin-top: 16px;
-}
+  margin: 24px 0;
+  object-fit: contain;
 
 .map-address-text {
-  margin-top: 16px;
   font-size: 0.9rem;
-  color: #444;
+  color: #2c3e50;
   text-align: center;
   line-height: 1.5;
+  font-family: 'SUIT', sans-serif;
+  margin-bottom: 40px; 
 }
-
 .map-link-text {
   font-size: 0.9rem;
   color: #333;
