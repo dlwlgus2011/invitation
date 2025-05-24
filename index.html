@@ -7,19 +7,32 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <h1> 가족 모임에 초대합니다 🎉</h1>
 
-    <img src="페이지1.jpg" alt="가족사진" class="inv-img"/>
+  <!-- 풀스크린 메인 이미지 -->
+  <section class="hero">
+    <img src="페이지1.jpg" alt="대표 이미지" />
+  </section>
 
-    <p>6월 3일 (화) | 오전 12시<br>장소: 서초그랑자이 104동 3203호</p>
+  <!-- 중간 이미지 섹션 -->
+  <section class="middle">
+    <img src="페이지2.jpg" alt="설명 이미지" />
+  </section>
 
-    <img src="페이지2.jpg" alt="일정 안내 이미지" class="inv-img"/>
-
-    <div class="map">
-      <h2>📍 위치 안내</h2>
-      <p><a href="https://map.kakao.com/" target="_blank">카카오맵으로 위치 확인하기</a></p>
+  <!-- 카카오맵 직접 삽입 -->
+  <section class="map-section">
+    <h2>📍 오시는 길</h2>
+    <div class="map-container">
+      <iframe 
+        src="https://map.kakao.com/link/map/서초그랑자이 104동,37.48470801491151,127.01816988140785" 
+        width="100%" height="300" style="border:0;" allowfullscreen>
+      </iframe>
     </div>
-  </div>
+    <p>
+      <a class="map-link" href="https://map.kakao.com/link/to/서초그랑자이 104동,37.48470801491151,127.01816988140785" target="_blank">
+        👉 카카오맵에서 열기
+      </a>
+    </p>
+  </section>
+
 </body>
 </html>
